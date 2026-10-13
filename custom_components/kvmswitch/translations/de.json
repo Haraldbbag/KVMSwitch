@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KVM Switch",
+        "description": "Wähle die USB-Matrix-Empfänger (Select-Entitäten) und die Videohub-Ausgänge (Media Player).",
+        "data": {
+          "receivers": "USB-Empfänger",
+          "outputs": "Videohub-Ausgänge",
+          "ignored_sources": "Ignorierte Quellen (kommagetrennt)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "KVM Switch ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "KVM Switch",
+        "data": {
+          "receivers": "USB-Empfänger",
+          "outputs": "Videohub-Ausgänge",
+          "ignored_sources": "Ignorierte Quellen (kommagetrennt)"
+        }
+      }
+    }
+  }
+}

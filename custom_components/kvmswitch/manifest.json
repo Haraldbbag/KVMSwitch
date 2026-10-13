@@ -1,0 +1,13 @@
+{
+  "domain": "kvmswitch",
+  "name": "KVM Switch",
+  "codeowners": ["@Haraldbbag"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/Haraldbbag/kvmswitch",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Haraldbbag/kvmswitch/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

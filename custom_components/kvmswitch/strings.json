@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KVM Switch",
+        "description": "Choose the USB matrix receivers (select entities) and the Videohub outputs (media players).",
+        "data": {
+          "receivers": "USB receivers",
+          "outputs": "Videohub outputs",
+          "ignored_sources": "Ignored sources (comma separated)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "KVM Switch is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "KVM Switch",
+        "data": {
+          "receivers": "USB receivers",
+          "outputs": "Videohub outputs",
+          "ignored_sources": "Ignored sources (comma separated)"
+        }
+      }
+    }
+  }
+}
